@@ -4,6 +4,8 @@
 ### SEND MES: sending message over socket
 ### FETCHIF: fetch next message if exist
 ### FETCH: fetch next message if exist, otherwise wait (get blocked)
-### AUTO: fetch messages automatically
+### AUTO: fetch messages automatically with the help of thread
 ### NOAUTO: eixt AUTO mode. Demand base
 ### QUIT: exiting
+
+#### synchronization tools such as semaphores were used for this project
