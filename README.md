@@ -1,4 +1,4 @@
-# socketProgramming
+# Socket Programming
 ## This repo includes socket programming with shared memory implementation. This is a client-server project. There is also a shared queue and each client can read and write on it. When a client connect to the server, server forks a new child process and this child serves to the client.
 ## Client can handle these commands:
 ### SEND MES: sending message over socket
